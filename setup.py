@@ -3,11 +3,11 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 REPO_NAME = "End-to-End-Brain-Tumor-Classification-MRI-"
 AUTHOR_USER_NAME = "karmakaragradwip02" 
-SRC_REPO = "Brain Tumor Classification (MRI)"
+SRC_REPO = "Brain_Tumor_Classification(MRI)"
 AUTHOR_EMAIL = "karmakaragradwip02@gmail.com"
 
 setuptools.setup(
