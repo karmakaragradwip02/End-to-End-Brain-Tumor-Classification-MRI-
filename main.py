@@ -1,1 +1,2 @@
-from Brain Tumor Classification(MRI) 
+from src.Brain_Tumor-Classification(MRI) import logger
+
