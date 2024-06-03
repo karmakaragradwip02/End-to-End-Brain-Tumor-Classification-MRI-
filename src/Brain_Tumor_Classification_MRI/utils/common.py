@@ -10,9 +10,12 @@ from pathlib import Path
 from typing import Any
 import base64
 
-
-@ensure_annotations
+#ensure annotations is used so thet if user is giving a wrong datatype 
+#input then the compiler will through error
+@ensure_annotations 
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
+    #config box is used because yaml will give a dict output
+    #so if we just convert the dict in cofigbox we can get the data easily
     """reads yaml file and returns
 
     Args:
