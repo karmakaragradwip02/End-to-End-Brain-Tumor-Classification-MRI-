@@ -2,7 +2,7 @@ from Brain_Tumor_Classification_MRI.config.configuration import ConfigurationMan
 from Brain_Tumor_Classification_MRI.components.prepare_base_model import PrepareBaseModel
 from Brain_Tumor_Classification_MRI import logger
 
-STAGE_NAME = "Prepare base model"
+STAGE_NAME = "PREPARE BASE MODEL"
 
 
 class PrepareBaseModelTrainingPipeline:
@@ -17,7 +17,6 @@ class PrepareBaseModelTrainingPipeline:
         prepare_base_model.update_base_model()
 
 
-
 if __name__ == '__main__':
     try:
         logger.info(f"*******************")
@@ -25,6 +24,7 @@ if __name__ == '__main__':
         obj = PrepareBaseModelTrainingPipeline()
         obj.main()
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        logger.info(f"*******************")
     except Exception as e:
         logger.exception(e)
         raise e
