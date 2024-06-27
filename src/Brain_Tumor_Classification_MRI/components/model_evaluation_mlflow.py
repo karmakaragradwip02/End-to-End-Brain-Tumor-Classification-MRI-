@@ -1,5 +1,5 @@
-from Brain_Tumor_Classification_MRI.entity.config_entity import EvaluationConfig
-from Brain_Tumor_Classification_MRI.utils.common import save_json
+from src.Brain_Tumor_Classification_MRI.entity.config_entity import EvaluationConfig
+from src.Brain_Tumor_Classification_MRI.utils.common import save_json
 import tensorflow as tf
 from pathlib import Path
 import mlflow

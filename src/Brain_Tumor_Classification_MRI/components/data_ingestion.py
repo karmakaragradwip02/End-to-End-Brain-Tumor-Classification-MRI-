@@ -1,9 +1,9 @@
 import os
 import zipfile
 import gdown
-from Brain_Tumor_Classification_MRI import logger
-from Brain_Tumor_Classification_MRI.utils.common import get_size
-from Brain_Tumor_Classification_MRI.entity.config_entity import DataIngestionConfig
+from src.Brain_Tumor_Classification_MRI import logger
+from src.Brain_Tumor_Classification_MRI.utils.common import get_size
+from src.Brain_Tumor_Classification_MRI.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):

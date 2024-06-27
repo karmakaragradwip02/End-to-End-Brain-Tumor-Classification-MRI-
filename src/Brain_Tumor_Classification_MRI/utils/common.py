@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from Brain_Tumor_Classification_MRI import logger
+from src.Brain_Tumor_Classification_MRI import logger
 import json
 import joblib
 from ensure import ensure_annotations

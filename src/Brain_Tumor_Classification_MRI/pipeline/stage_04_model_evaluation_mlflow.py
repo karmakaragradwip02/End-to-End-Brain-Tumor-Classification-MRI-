@@ -1,6 +1,6 @@
-from Brain_Tumor_Classification_MRI.config.configuration import ConfigurationManager
-from Brain_Tumor_Classification_MRI.components.model_evaluation_mlflow import Evaluation
-from Brain_Tumor_Classification_MRI import logger
+from src.Brain_Tumor_Classification_MRI.config.configuration import ConfigurationManager
+from src.Brain_Tumor_Classification_MRI.components.model_evaluation_mlflow import Evaluation
+from src.Brain_Tumor_Classification_MRI import logger
 
 
 STAGE_NAME = "MODEL EVALUATION"

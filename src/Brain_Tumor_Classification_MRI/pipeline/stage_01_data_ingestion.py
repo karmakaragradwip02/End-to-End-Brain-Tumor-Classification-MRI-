@@ -1,6 +1,6 @@
-from Brain_Tumor_Classification_MRI.config.configuration import ConfigurationManager
-from Brain_Tumor_Classification_MRI.components.data_ingestion import DataIngestion
-from Brain_Tumor_Classification_MRI import logger
+from src.Brain_Tumor_Classification_MRI.config.configuration import ConfigurationManager
+from src.Brain_Tumor_Classification_MRI.components.data_ingestion import DataIngestion
+from src.Brain_Tumor_Classification_MRI import logger
 
 STAGE_NAME = "DATA INGESTION STAGE"
 

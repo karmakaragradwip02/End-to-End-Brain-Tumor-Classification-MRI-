@@ -1,6 +1,6 @@
-from Brain_Tumor_Classification_MRI.constants import *
-from Brain_Tumor_Classification_MRI.utils.common import read_yaml, create_directories
-from Brain_Tumor_Classification_MRI.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig)
+from src.Brain_Tumor_Classification_MRI.constants import *
+from src.Brain_Tumor_Classification_MRI.utils.common import read_yaml, create_directories
+from src.Brain_Tumor_Classification_MRI.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig)
 import os
 
 class ConfigurationManager:
